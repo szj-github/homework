@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/change"
+        android:enabled="true"
+        android:title="切换账号"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+</menu>

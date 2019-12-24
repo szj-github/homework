@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week">
+        <item >数据库</item>
+        <item >后端</item>
+        <item >前端</item>
+    </string-array>
+</resources>

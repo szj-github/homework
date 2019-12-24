@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/author"
+        android:enabled="true"
+        android:title="关于作者"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/add_question"
+        android:enabled="true"
+        android:title="添加题目"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/question_center"
+        android:enabled="true"
+        android:title="答题中心"
+        android:visible="true"
+        app:showAsAction="always"
+        />
+    <item
+    android:id="@+id/quit"
+    android:enabled="true"
+    android:title="退出"
+    android:visible="true" />
+</menu>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_question"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="734dp"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:background="@drawable/bg6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#FF6F00"
+                android:text="添加题目"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="5"
+            android:background="#B6C7DC"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="请选择题目类型"
+                android:textStyle="bold"
+
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/add_spin"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="50dp"
+                android:dropDownWidth="80dp"
+                android:layout_marginLeft="60dp"
+                android:layout_weight="3"
+                android:entries="@array/week"
+                android:popupBackground="#66ccff"
+                android:spinnerMode="dropdown"></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="3"
+            android:weightSum="6"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/add_question"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:ems="10"
+                android:gravity="start"
+                android:hint="请输入判断题题目"
+
+                android:inputType="textMultiLine" />
+
+
+
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="正确？"
+            android:textColor="#700404"
+            android:textSize="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/post_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:textSize="20dp"
+                android:layout_margin="5dip"
+                android:background="@drawable/green"
+                android:gravity="center"
+                android:text="添加" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
